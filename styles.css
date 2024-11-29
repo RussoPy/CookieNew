@@ -1,0 +1,245 @@
+.cookie-footer {
+    background-color: #574b4b;
+    color: #f8f9fa;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Footer Content */
+.cookie-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Links Style */
+.cookie-footer .footer-links {
+    margin: 10px 0;
+}
+
+.cookie-footer .footer-links a {
+    color: #f1c40f; /* Cookie-inspired golden yellow */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.cookie-footer .footer-links a:hover {
+    color: #e67e22; /* Darker orange for hover effect */
+}
+
+/* Social Media Icons */
+.cookie-footer .social-icons {
+    margin-top: 10px;
+}
+
+.cookie-footer .social-icons a {
+    color: #f8f9fa;
+    font-size: 20px;
+    margin: 0 8px;
+    transition: color 0.3s ease-in-out;
+}
+
+.cookie-footer .social-icons a:hover {
+    color: #e67e22;
+}
+
+/* Add spacing on smaller screens */
+@media (max-width: 768px) {
+    .cookie-footer .footer-content {
+        text-align: center;
+    }
+}
+/* General Header Styling */
+.cookie-header {
+    background: linear-gradient(135deg, #f7d7a7, #f1b973); /* Warm, cookie-like gradient */
+    color: #5a3d2b; /* Warm brown text for contrast */
+    padding: 15px 0;
+    font-family: 'Georgia', serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.cookie-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo */
+.cookie-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cookie-header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cookie-header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navigation Links */
+.cookie-header .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.cookie-header .nav-links a {
+    color: #5a3d2b;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cookie-header .nav-links a:hover {
+    background-color: #e68a44; /* Warm orange hover effect */
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cookie-header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cookie-header .nav-links {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+/* Cookie Showcase Section */
+.cookie-showcase {
+    background: linear-gradient(135deg, #f7d7a7, #f1b973); /* Warm cookie-inspired gradient */
+    color: #5a3d2b; /* Chocolate brown text */
+    padding: 45px 100px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    border-radius: 100px;
+    box-shadow: 0 0cap 3rem rgba(0, 0, 0, .175);
+    margin: 20px auto;
+    max-width: 800px;
+    
+}
+
+/* Section Title */
+.cookie-showcase h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+/* Section Description */
+.cookie-showcase p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Call-to-Action Button */
+.cookie-showcase .cta-button {
+    background-color: #e68a44; /* Warm orange */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cookie-showcase .cta-button:hover {
+    background-color: #c77130; /* Slightly darker orange */
+    transform: scale(1.05);
+}
+
+body {
+    background-image: url('media/Background.webp');
+    background-repeat: repeat;
+    background-size: auto; /* Adjust as needed, e.g., 'contain' or 'cover' */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    background-color: #f1b973;
+  }
+
+  /* Center the card in the page */
+body, html {
+    height: 100%; /* Ensure the body and html take full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50%; /* Full viewport height */
+  }
+  
+  /* Custom styles for the card */
+  .custom-card {
+    width: 18rem; /* Adjust the width of the card */
+    border-radius: 15px; /* Round the corners of the card */
+    overflow: hidden; /* Ensure content doesn't overflow outside the border */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .custom-card .card-img-top {
+    height: 200px; /* Adjust image height */
+    object-fit: cover; /* Make sure the image covers the area */
+    border-bottom: 1px solid #ddd; /* Add a border at the bottom of the image */
+  }
+  
+  .custom-card .card-body {
+    padding: 15px; /* Add padding inside the card body */
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.25rem; /* Set font size for the card title */
+    font-weight: bold;
+  }
+  
+  .custom-card .card-text {
+    font-size: 1rem; /* Set font size for the card text */
+    color: #555; /* Light gray text color */
+  }
+  
+  /* Hover effect to scale up and add shadow */
+  .custom-card:hover {
+    transform: translateY(-10px); /* Slightly lift the card */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  /* Card button customization */
+  .custom-card .btn {
+    background-color: #ff6f61; /* Button background color */
+    border-color: #ff6f61; /* Button border color */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .custom-card .btn:hover {
+    background-color: #ff4e43; /* Darken button on hover */
+    border-color: #ff4e43; /* Darken button border on hover */
+  }
+  
